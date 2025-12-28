@@ -1,0 +1,20 @@
+@import "tailwindcss";
+/* 
+body{
+    background-color: #f4f1eb;
+} */
+
+#parallax-cloud {
+  /* position: absolute; */
+  /* font-size: 7rem; */
+  color: white;
+  /* top: 10%; */
+  /* left: 55%; */
+  /* left: -10%; */
+  /* padding-left: 20vw; */
+  transform: translate(
+    calc(0% + (var(--x) * -20px)),
+    calc(-50% + (var(--y) * -20px))
+  );
+  text-transform: uppercase;
+}
