@@ -3,21 +3,18 @@ import why from "../assets/whymontessori.png";
 
 const Info = () => {
   return (
-    <div className="flex items-center justify-center py-10 px-4">
-      <img
-        src={why}
-        alt="Why Montessori"
-        className="
-          w-full
-          max-w-xs
-          sm:max-w-sm
-          md:max-w-md
-          lg:max-w-lg
-          xl:max-w-xl
-          h-auto
-        "
-      />
+   <div className="flex justify-center py-20 px-4">
+  <div className="max-w-3xl text-center">
+    <p className="text-lg md:text-xl font-light leading-relaxed text-gray-700">
+      “The greatest gifts we can give our children are the roots of responsibility
+      and the wings of independence.”
+    </p>
+
+    <div className="mt-4 text-right text-gray-500 font-medium  font-[Fredoka]">
+      -Dr. Maria Montessori
     </div>
+  </div>
+</div>
   );
 };
 

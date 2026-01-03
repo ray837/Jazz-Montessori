@@ -29,8 +29,8 @@ const Hero = () => {
       <div className='flex justify-center'>
       <div className='flex flex-col gap-2 text-white text-center py-5 '>
         {/* <h2 className='text-xs'> EST 2024</h2> */}
-        <h6 className='text-4xl tracking-widest  font-bold'>WELCOME TO JAZZ MONTESORRI</h6>
-        <h1>Where Curiosity Leads Learning.</h1>
+        <h6 className='text-4xl tracking-widest  font-bold  font-[Fredoka]'>WELCOME TO JAZZ MONTESSORI</h6>
+        <h1 className=' font-[Fredoka]'>Where Learning Matters.</h1>
       </div>
       </div>
       {/* clouds */}

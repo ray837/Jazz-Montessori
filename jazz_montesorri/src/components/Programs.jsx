@@ -9,7 +9,7 @@ const Programs = () => {
     // <div style={{backgroundColor:"#e94927"}} className='h-[60vh]'> style={{backgroundColor:'#fc7d4bff'}} 
     <div   className='h-full text-center'>
     {/* <div style={{ backgroundColor: '#fc7d4bff' }} className='h-[70vh] text-center'> */}
-      <h1 className='text-4xl py-12 font-semibold'>PROGRAMS</h1>
+      <h1 className='text-4xl py-12 font-semibold  font-[Fredoka]'>PROGRAMS</h1>
 
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 px-10">
 
@@ -24,7 +24,7 @@ const Programs = () => {
     </div>
 
     <div class="p-4">
-      <h1 class="font-semibold text-lg">Infant Program</h1>
+      <h1 class="font-semibold text-lg  font-[Fredoka]">Infant Program</h1>
       <p>Sensory exploration</p>
       <p>Language development</p>
       <p>Emotional bonding</p>
@@ -43,7 +43,7 @@ const Programs = () => {
     </div>
 
     <div class="p-4">
-      <h1 class="font-semibold text-lg">Toddler Program</h1>
+      <h1 class="font-semibold text-lg  font-[Fredoka]">Toddler Program</h1>
       <p>Language exposure</p>
       <p>Motor skill development</p>
       <p>Social & emotional learning</p>
@@ -62,7 +62,7 @@ const Programs = () => {
     </div>
 
     <div class="p-4">
-      <h1 class="font-semibold text-lg">Preschool Program</h1>
+      <h1 class="font-semibold text-lg  font-[Fredoka]">Preschool Program</h1>
       <p>Early reading & writing</p>
       <p>Math with hands-on materials</p>
       <p>Problem-solving skills</p>
@@ -81,7 +81,7 @@ const Programs = () => {
     </div>
 
     <div class="p-4">
-      <h1 class="font-semibold text-lg">Daycare</h1>
+      <h1 class="font-semibold text-lg font-[Fredoka]">Daycare</h1>
       <p>Supervised play</p>
       <p>Creative activities</p>
       <p>Rest & care</p>

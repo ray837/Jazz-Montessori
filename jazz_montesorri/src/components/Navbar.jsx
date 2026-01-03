@@ -13,7 +13,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-10 uppercase font-semibold">
+        <div className="hidden md:flex items-center gap-10 uppercase font-semibold  font-[Fredoka]">
           <span className="cursor-pointer">Home</span>
           <span className="cursor-pointer">Program</span>
           <span className="cursor-pointer">Staff</span>

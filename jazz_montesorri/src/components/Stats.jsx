@@ -8,7 +8,7 @@ const Stats = () => {
     <div className='w-1/4 flex flex-col justify-end '>
         <img src={left_girl} className='w-[80%]'></img>
     </div>
-    <div className="max-w-5xl mx-auto px-4 flex flex-coll justify-center">
+    <div className="max-w-5xl mx-auto px-4 flex flex-coll justify-center  font-[Fredoka]">
       
       <div className="grid grid-cols-1 xl:grid-cols-4 gap-6 items-center">
 

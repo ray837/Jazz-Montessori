@@ -26,8 +26,8 @@ const Principles = () => {
   {/* CONTENT (defines height) */}
   <div className="relative z-10 px-4 md:px-20 py-32">
 
-    <h1 className="text-white text-3xl md:text-4xl font-black text-center">
-      WELCOME TO JAZZ
+    <h1 className="text-white text-3xl md:text-4xl font-black text-center font-[Fredoka]">
+      Our Philosophy
     </h1>
 
     <img
@@ -72,7 +72,7 @@ const Principles = () => {
   )
 }
 const Card = ({ img, title, text }) => (
-  <div className="bg-white rounded-[40px] shadow-lg overflow-hidden">
+  <div className="bg-white rounded-[40px] shadow-lg overflow-hidden  font-[Fredoka]">
     <img src={img} alt={title} className="w-full h-auto" />
     <div className="p-6 text-center text-black">
       <h2 className="text-xl md:text-2xl font-light">{title}</h2>

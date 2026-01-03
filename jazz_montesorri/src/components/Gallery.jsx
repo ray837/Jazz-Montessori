@@ -28,15 +28,15 @@ const Gallery = () => {
 
       {/* LEFT CONTENT */}
       <div className="flex flex-col gap-4 justify-center">
-        <h6 className="text-sm   w-fit" style={{color:'#704FE6'}}>
+        <h6 className="text-sm   w-fit  font-[Fredoka]" style={{color:'#704FE6'}}>
           Learning in Action
         </h6>
 
-        <h3 className="text-3xl font-light">
+        <h3 className="text-3xl font-light  font-[Fredoka]">
           Exciting <span className=" font-semibold"  style={{color:'#704FE6'}}>Classes</span> for Every Kids
         </h3>
 
-        <p className="text-gray-600">
+        <p className="text-gray-600  font-[Fredoka]">
           We bring learning to life with engaging activities, real-world connections, and a focus on making every moment exciting.
         </p>
 
@@ -44,7 +44,7 @@ const Gallery = () => {
           href="learning.html"
           className="w-1/2 inline-flex items-center gap-3 rounded-full border  border-[#704FE6] px-6 py-2 text-[#704FE6] hover:bg-[#704FE6] hover:text-white transition justify-between"
         >
-          <span>View All</span>
+          <span className=' font-[Fredoka]'>View All</span>
           <span className="w-8 h-8 rounded-full bg-[#704FE6] text-white flex items-center justify-center">
             ↗
           </span>
@@ -54,7 +54,7 @@ const Gallery = () => {
       {/* MIDDLE CARD */}
       <div className="flex">
         <div className="bg-[#704FE6] rounded-[40px] p-6 flex flex-col items-center gap-4 w-full">
-          <h4 className="text-white text-xl">Outdoor Visit</h4>
+          <h4 className="text-white text-xl  font-[Fredoka]">Outdoor Visit</h4>
 
           <div className="relative w-full h-full">
             <img
@@ -78,8 +78,8 @@ const Gallery = () => {
       {/* RIGHT CONTENT */}
       <div className="flex flex-col gap-6">
         <div className="bg-yellow-100 rounded-[40px] p-6 text-center flex flex-col gap-3">
-          <h4 className="text-[#704FE6] text-xl">  Outdoor Visit</h4>
-          <p className="text-gray-600">
+          <h4 className="text-[#704FE6] text-xl  font-[Fredoka]">  Outdoor Visit</h4>
+          <p className="text-gray-600  font-[Fredoka]">
           Children explore nature, build curiosity, and learn through real-world experiences beyond the classroom.
 
           </p>
