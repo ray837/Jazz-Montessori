@@ -38,7 +38,7 @@ const Footer = () => {
 <div className='flex flex-col  gap-5 px-10 py-15'>
     <h1 className='text-3xl mb-7  font-[Fredoka]'>Enquire</h1>
     <p>If you would like to enquire , please reachout to our Whatsapp</p>
- <a href="https://wa.me/968643225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions."
+ <a href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions."
   target="_blank"
   rel="noopener noreferrer"
   className="w-1/2 border border-white text-white px-6 py-2 rounded-md active:scale-95 hover:bg-white hover:text-[#252340]">
