@@ -17,7 +17,7 @@ const Programs = () => {
     
     <div class="w-full aspect-video  flex items-center justify-center mb-7">
       <img
-        src="/src/assets/infant.png"
+        src={{infant}}
         class="max-h-full max-w-full object-contain"
         alt="Infant Program"
       />
@@ -36,7 +36,7 @@ const Programs = () => {
     
     <div class="w-full h-80  flex items-center justify-center mb-7">
       <img
-        src="/src/assets/toddler.png"
+        src={{toddler}}
         class="max-h-full max-w-full object-contain"
         alt="Toddler Program"
       />
@@ -55,7 +55,7 @@ const Programs = () => {
     
         <div class="w-full h-85  flex items-center justify-center mb-5">
       <img
-        src="/src/assets/preschool.png"
+        src={{preschool}}
         class="max-h-full max-w-full object-contain"
         alt="Preschool Program"
       />
@@ -74,7 +74,7 @@ const Programs = () => {
     
        <div class="w-full h-85  flex items-center justify-center  mb-4">
       <img
-        src="/src/assets/daycare.png"
+        src={{daycare}}
         class="max-h-full max-w-full object-contain"
         alt="Daycare"
       />

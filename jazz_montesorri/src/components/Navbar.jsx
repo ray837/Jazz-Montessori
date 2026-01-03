@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import train from '../assets/train.png'
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -9,7 +9,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/src/assets/train.png" alt="Logo" className="h-10 " />
+          <img src={train} alt="Logo" className="h-10 " />
         </div>
 
         {/* Desktop Menu */}
