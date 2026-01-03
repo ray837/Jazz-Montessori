@@ -4,6 +4,7 @@ import cloud2 from '../assets/single_sm_cloud.png'
 import cloud3 from '../assets/cloud_lg.png'
 import cloudflip from '../assets/cloud_flip.png'
 import castle from '../assets/castle.png'
+import house from '../assets/house1.png'
 import { useEffect } from 'react'
 import {gsap} from 'gsap'
 const Hero = () => {
@@ -21,10 +22,10 @@ const Hero = () => {
       window.removeEventListener('pointermove', handleMouseMove);
     };
   }, []);
-
+// #89C0FF
   return (
     <>
-    <div style={{backgroundColor:'#38b6ff'}} className="h-[90vh]  font-sans flex flex-col gap-0.5 overflow-hidden">
+    <div style={{backgroundColor:'#38b6ff'}} className="h-full font-sans flex flex-col gap-0.5 overflow-hidden">
       <div className='flex justify-center'>
       <div className='flex flex-col gap-2 text-white text-center py-5 '>
         {/* <h2 className='text-xs'> EST 2024</h2> */}
@@ -32,11 +33,14 @@ const Hero = () => {
         <h1>Where Curiosity Leads Learning.</h1>
       </div>
       </div>
-      
-      <div className='absolute flex gap-10 h-[13vh] mt-20 px-35 ' id='parallax-cloud'>
+      {/* clouds */}
+      <div className='flex flex-row justify-between'>
+      <div className=' flex gap-10 h-[13vh] mt-10 px-35 ' id='parallax-cloud'>
        {/* <img   src={cloud}></img> */}
+       <div className="hidden md:flex justify-end gap-6 md:gap-10 mt-6 md:mt-10 px-4 md:px-20"> 
           <img  className='h-20 py-1.5'  src={cloud3}></img>
          <img   src={cloudflip}></img>
+         </div>
          {/* <img   src={cloudflip}></img>
          <img  className='h-13 px-2'  src={cloud3}></img>
          <img   src={cloudflip}></img>
@@ -47,23 +51,40 @@ const Hero = () => {
          <img  className='h-15 px-2'  src={cloud3}></img> */}
           
        </div>
-        <div style={{right:0}} className='absolute flex gap-10 h-[13vh] mt-20 px-35 ' id='parallax-cloud'>
+        <div style={{right:0}} className=' flex gap-10 h-[13vh] mt-10 px-35 ' id='parallax-cloud'>
        {/* <img   src={cloud}></img> */}
           <img  className='h-10 py-1.5'  src={cloud3}></img>
          <img   src={cloudflip}></img>
          
+         
           
        </div>
+        </div>
+
       <div >
        
       <div>
        
       </div>
       </div>
-      <div className='flex justify-end px-20   self-center'>
-         <img src={castle}></img>
-        {/* <button className='px-3 py-2 bg-black  text-white'>Enquire Us</button> */}
-      </div>
+    <div
+  style={{ marginTop: "-70px" }}
+  className="flex justify-end px-4 md:px-20 self-center"
+>
+  <img
+    src={house}
+    alt="House"
+    className="
+      w-full
+      max-w-xs
+      sm:max-w-sm
+      md:max-w-md
+      lg:max-w-lg
+      xl:max-w-xl
+      h-auto
+    "
+  />
+</div>
        
     </div>
     
