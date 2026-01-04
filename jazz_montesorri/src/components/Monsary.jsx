@@ -8,13 +8,21 @@ import kid2 from '../assets/kid2.jpeg'
 import kid4 from '../assets/kid4.jpeg'
 import kid5 from '../assets/kid5.jpeg'
 import kid6 from '../assets/kid6.jpeg'
- 
+ import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Monsary = () => {
+    const [index, setIndex] = useState(0);
+      useEffect(() => {
+       AOS.init({ duration: 800, once: false, mirror: false });
+     }, []);
+
     const images = [fathers_day, kid1, kid2,kid4,kid5,kid6,fathers_day,field_visit];
   return (
     <div className='px-5 py-7'>
         <h1 style={{color:'#E94927'}} className='text-3xl font-[Fredoka] text-center py-7'>Gallery</h1>
-   <div className="columns-2 sm:columns-3 md:columns-4 gap-4">
+   <div className="columns-2 sm:columns-3 md:columns-4 gap-4" data-aos="fade-up"
+  data-aos-delay="200">
   {images.map((img, i) => (
     <img
       key={i}
