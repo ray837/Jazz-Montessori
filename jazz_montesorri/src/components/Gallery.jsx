@@ -4,7 +4,12 @@ import field_visit from '../assets/field_visit.jpeg'
 import { useEffect, useState } from "react";
 import kid1 from '../assets/kid1.jpeg'
 import kid2 from '../assets/kid2.jpeg'
-const images = [fathers_day, kid1, kid2];
+// import kid3 from '../assets/kid3.jpeg'
+import kid4 from '../assets/kid4.jpeg'
+import kid5 from '../assets/kid5.jpeg'
+import kid6 from '../assets/kid6.jpeg'
+const images = [fathers_day, kid1, kid2,kid4,kid5,kid6];
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
    const [index, setIndex] = useState(0);
@@ -40,15 +45,15 @@ const Gallery = () => {
           We bring learning to life with engaging activities, real-world connections, and a focus on making every moment exciting.
         </p>
 
-        <a
-          href="learning.html"
+        <Link to='/gallery'
+          
           className="w-1/2 inline-flex items-center gap-3 rounded-full border  border-[#704FE6] px-6 py-2 text-[#704FE6] hover:bg-[#704FE6] hover:text-white transition justify-between"
         >
-          <span className=' font-[Fredoka]'>View All</span>
-          <span className="w-8 h-8 rounded-full bg-[#704FE6] text-white flex items-center justify-center">
+          <span className=' font-[Fredoka]' >View All</span>
+          <span className="w-8 h-8 rounded-full bg-[#704FE6] text-white flex items-center justify-center"  >
             ↗
           </span>
-        </a>
+        </Link>
       </div>
 
       {/* MIDDLE CARD */}
@@ -61,16 +66,26 @@ const Gallery = () => {
               src={field_visit}
               className="w-full h-full object-cover rounded-[32px]"
               alt=""
-            />
+            />   
+             {/* {longimages.map((img, i) => (
+        <img
+          key={i}
+          src={img}
+          className={` w-full h-full object-cover rounded-[32px]
+            transition-opacity duration-700
+            ${i === index ? "opacity-100" : "opacity-0"}`}
+          alt=""
+        />
+      ))} */}
 
-            <a
-              href="learning_detail.html"
+            <Link
+             to="/gallery"
               className="absolute bottom-0 right-0 bg-[#704FE6] rounded-tl-[24px] p-3"
             >
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
                 ↗
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

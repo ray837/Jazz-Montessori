@@ -16,7 +16,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-10 uppercase font-semibold  font-[Fredoka]">
-          <a className="cursor-pointer hover:scale-95">Home</a>
+          <Link className="cursor-pointer hover:scale-95" to='/' >Home</Link>
           <a className="cursor-pointer hover:scale-95" href="#programs">Program</a>
           <Link className="cursor-pointer hover:scale-95" to="/mentor">Mentor</Link>
           <a className="cursor-pointer hover:scale-95" href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions." >Contact</a>
@@ -46,7 +46,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden mt-4 flex flex-col gap-5 uppercase font-semibold">
-          <a className="cursor-pointer">Home</a>
+          <Link className="cursor-pointer hover:scale-95" to='/' >Home</Link>
         <a className="cursor-pointer hover:scale-95" href="#programs">Program</a>
          <Link className="cursor-pointer hover:scale-95" to="/mentor">Mentor</Link>
           <a className="cursor-pointer " href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions.">Contact</a>
