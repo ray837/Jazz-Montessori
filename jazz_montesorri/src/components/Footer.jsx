@@ -30,7 +30,7 @@ const Footer = () => {
     <a href="mailto:jazz.montessori1995@gmail.com?subject=Admission%20Enquiry&body=Hello%20Jazz%20Montessori%2C%0A%0AI%20would%20like%20to%20enquire%20about%20admissions.%0A%0AThank%20you.">jazz.montessori1995@gmail.com</a>
 
       <h1 className='text-2xl font-bold  font-[Fredoka]'>Phone</h1>
-    <a href="tel:+91968643225">(+91) 968643225</a>
+    <a href="tel:+919686434225">(+91)9686434225</a>
 
      <h1 className='text-2xl font-bold  font-[Fredoka]'>Address</h1>
     <a href='https://share.google/U7oxatchLrWkW4o4m' target='_blank'>Jayanagar 1st Block, Bangalore</a>
