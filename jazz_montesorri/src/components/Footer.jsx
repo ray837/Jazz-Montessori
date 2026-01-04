@@ -13,7 +13,7 @@ const Footer = () => {
 </div>
 <div className='flex flex-col gap-10 px-10 py-15'> <h1 className='text-3xl  font-[Fredoka]'>Links</h1>
 <div className='w-1/2 flex flex-col gap-3  font-[Fredoka]'>
-<a>Google Maps</a>
+<a href='https://share.google/U7oxatchLrWkW4o4m' target='_blank'>Google Maps</a>
 <hr class=" mt-2 "></hr>
 <a href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions.">Whatsapp</a>
 <hr class="light-hr mt-2"></hr>
