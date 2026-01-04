@@ -1,13 +1,21 @@
 import React from 'react'
 import founder from '../assets/founder.jpeg'
+ import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 const Mentor = () => {
+    // const [index, setIndex] = useState(0);
+      useEffect(() => {
+       AOS.init({ duration: 800, once: false, mirror: false });
+     }, []);
   return ( 
     <section className=" py-16 px-4 font-[Fredoka]">
          <h3 className="text-2xl font-semibold mb-4 text-center">
         Our Founder
       </h3>
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-    <div className="w-full h-[340px] md:h-[570px] rounded-3xl overflow-hidden bg-gray-200 flex items-center justify-center">
+    <div className="w-full h-[340px] md:h-[570px] rounded-3xl overflow-hidden bg-gray-200 flex items-center justify-center" data-aos="fade-up"
+  data-aos-delay="200">
       <img
         src={founder}
         alt="About Jazz Montessori"

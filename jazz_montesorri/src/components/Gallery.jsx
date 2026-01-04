@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 const Gallery = () => {
    const [index, setIndex] = useState(0);
     useEffect(() => {
-     AOS.init({ duration: 800, once: false, mirror: false });
+     AOS.init({ duration: 800, once: true, mirror: false });
    }, []);
 
   useEffect(() => {
