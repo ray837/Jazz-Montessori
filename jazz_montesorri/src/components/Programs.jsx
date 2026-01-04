@@ -7,7 +7,7 @@ import toddler from '../assets/toddler.png'
 const Programs = () => {
   return (
     // <div style={{backgroundColor:"#e94927"}} className='h-[60vh]'> style={{backgroundColor:'#fc7d4bff'}} 
-    <div   className='h-full text-center' id='programs'>
+    <div   className='h-full text-center font-[Fredoka]' id='programs'>
     {/* <div style={{ backgroundColor: '#fc7d4bff' }} className='h-[70vh] text-center'> */}
       <h1 className='text-4xl py-12 font-semibold  font-[Fredoka]'>PROGRAMS</h1>
 

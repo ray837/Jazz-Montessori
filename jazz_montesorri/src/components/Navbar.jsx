@@ -1,16 +1,16 @@
 import { useState } from "react";
 import train from '../assets/train.png'
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-
+const navigate = useNavigate();
   return (
     <nav className="bg-[#F4F1EB] text-[#E94927] px-6 md:px-20 py-4">
       <div className="flex items-center justify-between">
 
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center" onClick={()=>navigate("/")}>
           <img src={train} alt="Logo" className="h-10 " />
         </div>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden mt-4 flex flex-col gap-5 uppercase font-semibold">
+        <div className="md:hidden mt-4 flex flex-col gap-5 uppercase font-semibold font-[Fredoka]">
           <Link className="cursor-pointer hover:scale-95" to='/' >Home</Link>
         <a className="cursor-pointer hover:scale-95" href="#programs">Program</a>
          <Link className="cursor-pointer hover:scale-95" to="/mentor">Mentor</Link>

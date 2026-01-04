@@ -8,7 +8,7 @@ const Info = () => {
   </div>
    <div className="flex justify-center py-8 px-4 md-py-20 mb-5 md:mb-20">
   <div className="max-w-3xl text-center">
-    <p className="text-lg md:text-xl font-light leading-relaxed text-gray-700">
+    <p className="text-lg md:text-xl font-light leading-relaxed text-gray-700 font-[Fredoka]">
       “The greatest gifts we can give our children are the roots of responsibility
       and the wings of independence.”
     </p>

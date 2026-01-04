@@ -5,7 +5,14 @@ import paint from '../assets/paint.png'
 import flowers from '../assets/flowers.png'
 import stroke from '../assets/stroke.png'
 import stars from '../assets/stars.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+
 const Principles = () => {
+  useEffect(() => {
+  AOS.init({ duration: 800, once: false, mirror: true });
+}, []);
   return (
 <div className="relative w-full overflow-hidden">
 
@@ -72,7 +79,8 @@ const Principles = () => {
   )
 }
 const Card = ({ img, title, text }) => (
-  <div className="bg-white rounded-[40px] shadow-lg overflow-hidden  font-[Fredoka]">
+  <div className="bg-white rounded-[40px] shadow-lg overflow-hidden  font-[Fredoka]"  data-aos="fade-up"
+  data-aos-delay="200">
     <img src={img} alt={title} className="w-full h-auto" />
     <div className="p-6 text-center text-black">
       <h2 className="text-xl md:text-2xl font-light">{title}</h2>

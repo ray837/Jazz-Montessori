@@ -10,9 +10,14 @@ import kid5 from '../assets/kid5.jpeg'
 import kid6 from '../assets/kid6.jpeg'
 const images = [fathers_day, kid1, kid2,kid4,kid5,kid6];
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Gallery = () => {
    const [index, setIndex] = useState(0);
+    useEffect(() => {
+     AOS.init({ duration: 800, once: false, mirror: false });
+   }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -58,7 +63,8 @@ const Gallery = () => {
 
       {/* MIDDLE CARD */}
       <div className="flex">
-        <div className="bg-[#704FE6] rounded-[40px] p-6 flex flex-col items-center gap-4 w-full">
+        <div className="bg-[#704FE6] rounded-[40px] p-6 flex flex-col items-center gap-4 w-full" data-aos="fade-up"
+  data-aos-delay="200">
           <h4 className="text-white text-xl  font-[Fredoka]">Outdoor Visit</h4>
 
           <div className="relative w-full h-full">
@@ -92,14 +98,16 @@ const Gallery = () => {
 
       {/* RIGHT CONTENT */}
       <div className="flex flex-col gap-6">
-        <div className="bg-yellow-100 rounded-[40px] p-6 text-center flex flex-col gap-3">
+        <div className="bg-yellow-100 rounded-[40px] p-6 text-center flex flex-col gap-3" data-aos="fade-up"
+  data-aos-delay="200">
           <h4 className="text-[#704FE6] text-xl  font-[Fredoka]">  Outdoor Visit</h4>
           <p className="text-gray-600  font-[Fredoka]">
           Children explore nature, build curiosity, and learn through real-world experiences beyond the classroom.
 
           </p>
         </div>
- <div className="relative w-full h-[350px] overflow-hidden">
+ <div className="relative w-full h-[350px] overflow-hidden" data-aos="fade-up"
+  data-aos-delay="200">
       {images.map((img, i) => (
         <img
           key={i}
