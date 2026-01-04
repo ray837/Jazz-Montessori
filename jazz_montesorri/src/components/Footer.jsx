@@ -15,11 +15,11 @@ const Footer = () => {
 <div className='w-1/2 flex flex-col gap-3  font-[Fredoka]'>
 <a>Google Maps</a>
 <hr class=" mt-2 "></hr>
-<a>Whatsapp</a>
+<a href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions.">Whatsapp</a>
 <hr class="light-hr mt-2"></hr>
-<a>Instagram</a>
+<a href='https://www.instagram.com/jazz.montessori?igsh=MWdxNzl5bjgzYXhobQ==' target='_blank'>Instagram</a>
 <hr class="light-hr mt-2"></hr>
-<a>Facebook</a>
+<a href='https://www.facebook.com/share/1HcdpvaBdJ/?mibextid=wwXIfr' target='_blank'>Facebook</a>
 <hr class="light-hr mt-2"></hr>
 </div>
  
@@ -27,13 +27,13 @@ const Footer = () => {
 <div className='flex flex-col justify-between gap-5 px-10 py-15  font-[Fredoka]'>
     <h1 className='text-3xl  font-[Fredoka]'>Contacts</h1>
     <h1 className='text-2xl font-bold  font-[Fredoka]'>Email</h1>
-    <a>rayidahmed@gmail.com</a>
+    <a href="mailto:jazz.montessori1995@gmail.com?subject=Admission%20Enquiry&body=Hello%20Jazz%20Montessori%2C%0A%0AI%20would%20like%20to%20enquire%20about%20admissions.%0A%0AThank%20you.">jazz.montessori1995@gmail.com</a>
 
       <h1 className='text-2xl font-bold  font-[Fredoka]'>Phone</h1>
-    <a>(+91) 968643225</a>
+    <a href="tel:+91968643225">(+91) 968643225</a>
 
      <h1 className='text-2xl font-bold  font-[Fredoka]'>Address</h1>
-    <p>Jayanagar 1st Block, Bangalore</p>
+    <a href='https://share.google/U7oxatchLrWkW4o4m' target='_blank'>Jayanagar 1st Block, Bangalore</a>
 </div>
 <div className='flex flex-col  gap-5 px-10 py-15'>
     <h1 className='text-3xl mb-7  font-[Fredoka]'>Enquire</h1>

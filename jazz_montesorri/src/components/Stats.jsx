@@ -15,7 +15,7 @@ const Stats = () => {
         {/* Card 1 */}
         <div className="flex flex-col items-center gap-2 mb-3 text-orange-500">
           <div className="flex items-center">
-            <h1 className="text-5xl font-bold">15</h1>
+            <h1 className="text-5xl font-bold">27</h1>
             <h5 className="text-xl ml-1">+</h5>
           </div>
           <h5 className="text-gray-500">Years of Experience</h5>
@@ -24,7 +24,7 @@ const Stats = () => {
         {/* Card 2 */}
         <div className="flex flex-col items-center gap-2 mb-3 text-orange-500">
           <div className="flex items-center">
-            <h1 className="text-5xl font-bold">30</h1>
+            <h1 className="text-5xl font-bold">2</h1>
             <h5 className="text-xl ml-1">+</h5>
           </div>
           <h5 className="text-gray-500">Expert Teachers</h5>
@@ -42,7 +42,7 @@ const Stats = () => {
         {/* Card 4 */}
         <div className="flex flex-col items-center gap-2 mb-3 text-orange-500">
           <div className="flex items-center">
-            <h1 className="text-5xl font-bold">20</h1>
+            <h1 className="text-5xl font-bold">15</h1>
             <h5 className="text-xl ml-1">+</h5>
           </div>
           <h5 className="text-gray-500">Learning Programs</h5>

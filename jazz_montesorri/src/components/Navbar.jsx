@@ -1,5 +1,7 @@
 import { useState } from "react";
 import train from '../assets/train.png'
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -14,10 +16,10 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-10 uppercase font-semibold  font-[Fredoka]">
-          <span className="cursor-pointer">Home</span>
-          <span className="cursor-pointer">Program</span>
-          <span className="cursor-pointer">Staff</span>
-          <span className="cursor-pointer">Contact</span>
+          <a className="cursor-pointer hover:scale-95">Home</a>
+          <a className="cursor-pointer hover:scale-95" href="#programs">Program</a>
+          <Link className="cursor-pointer hover:scale-95" to="/mentor">Mentor</Link>
+          <a className="cursor-pointer hover:scale-95" href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions." >Contact</a>
         </div>
 
         {/* Hamburger (Mobile) */}
@@ -44,10 +46,10 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden mt-4 flex flex-col gap-5 uppercase font-semibold">
-          <span className="cursor-pointer">Home</span>
-          <span className="cursor-pointer">Program</span>
-          <span className="cursor-pointer">Staff</span>
-          <span className="cursor-pointer">Contact</span>
+          <a className="cursor-pointer">Home</a>
+        <a className="cursor-pointer hover:scale-95" href="#programs">Program</a>
+         <Link className="cursor-pointer hover:scale-95" to="/mentor">Mentor</Link>
+          <a className="cursor-pointer " href="https://wa.me/919686434225?text=Hello%20Jazz%20Montessori%2C%20I%20would%20like%20to%20enquire%20about%20admissions.">Contact</a>
         </div>
       )}
     </nav>
